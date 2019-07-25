@@ -71,6 +71,7 @@ function printQuote() {
   document.getElementById('quote-box').innerHTML = html;
 }
 
+printQuote();
 
 
 document.getElementById('loadQuote').addEventListener("click", printQuote, false);
